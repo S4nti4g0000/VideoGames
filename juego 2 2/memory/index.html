@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+    </head>
+
+    <title>Memory pair game</title>
+    <link rel="stylesheet" href="styles.css"></link>
+
+    <header>MEMORY GAME</header>
+
+    <body>
+
+        
+
+        <div class="grid"></div>
+       
+        <div id="Wol">
+
+        Result:
+
+       </div>
+
+       <h3>Score: <span id="Result"></span> </h3>
+
+       <div id="kitty" hidden>
+
+            <picture>
+
+                <source media="(min-width:650px)" srcset="kittyH.jpg">
+                <img src="kittyH.jpg" alt="Kit" style="width:auto">
+
+            </picture>
+
+       </div>
+
+       <audio id="Point">
+
+            <source src="coin.wav" type="audio/wav">
+
+       </audio>
+
+       <audio id="Wrong">
+
+            <source src="wrong.wav" type="audio/wav">
+
+       </audio>
+
+       <audio id="Win">
+
+            <source src="win.wav" type="audio/wav">
+
+       </audio>
+
+       <audio id="ambientTwo">
+
+            <source src="Motivation_Theme_2.mp3" type="audio/mp3">
+
+       </audio>
+
+       <audio id="sadMusic">
+
+            <source src="sad.mp3" type="audio/mp3">
+
+       </audio>
+
+       <audio id="br">
+
+            <source src="bruh.mp3" type="audio/mp3">
+
+       </audio>
+
+    <div>
+
+        <script src="app.js"></script>
+
+    </div>
+
+    <button id="retButt" hidden>RETRY</button>
+    <button id="giveUp" hidden>GIVE UP</button>
+    <button id="StartB" hidden>Start Game</button>
+
+    </body>
+    
+
+</html>

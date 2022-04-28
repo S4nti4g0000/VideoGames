@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<Head>
+    <Link rel="stylesheet" href="/Snake/Game/chido.css">
+</Head>
+
+<title>SNEK :O</title>
+
+<header>
+
+    <h1>Wild SNAKE GAME appeared!</h1>
+
+</header>
+
+<meta charset = "UTF-8"/>
+<meta name = "viewport" content="width=device-width, initial-scale=1.0"/>
+
+<body>
+
+     <div class="pauseButt">
+        <input type="checkbox" class="theToggler" hidden>
+        <div class="pause-img">
+            <div></div>
+        </div>
+     </div>
+
+    <div id="shim" onclick="deathOff()">
+        
+        <div id="deathMsg">You Died</div>
+    
+    </div>
+
+    <div class="intro">
+
+        <h2 class="SplScrn">
+
+            <span class="Sneki">Wild SNAKE GAME appeared!</span>
+
+        </h2>
+
+    </div>
+
+    <script>
+
+    function deathOff(){
+
+    document.getElementById("shim").style.display = "none"
+
+    }
+
+    function InstOff(){
+
+    document.querySelector('.Instt').style.display = "none"
+
+    }
+
+    </script>
+
+    <div id="SScore">
+        
+        SCORE: 0
+
+    </div>
+    
+    <div id="User">
+
+
+
+    </div>
+
+    <div id="Tim">Time: 00:00</div>
+
+    <div id="high">Highscore: 0</div>
+
+    <div id="Deco-Icons">A  B  C  D  E  F</div>
+    
+    <div>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/addons/p5.sound.min.js"></script>
+        <script src="/Snake/Game/Index.js"></script>
+        <script src="/Snake/Game/Snake.js"></script>
+        <script src="/Snake/Game/index html/Store_Page.html"></script>
+    
+    </div> 
+
+    <audio id="eatFX">
+
+        <source src="/Snake/Game/music/score_one.mp3" type="audio/mp3">
+
+    </audio>
+    
+    <audio id="firstSongEver" loop="loop">
+
+        <source src="/Snake/Game/music/easySong.mp3" type="audio/mp3">
+
+    </audio>
+
+    <audio id="secondSong" loop="loop">
+
+        <source src="/Snake/Game/music/midSong.mp3" type="audio/mp3">
+    
+    </audio>
+
+
+    <audio id="thirdSong" loop="loop">
+
+        <source src="/Snake/Game/music/hardSong.mp3" type="audio/mp3">
+
+    </audio>
+
+    <audio id="Died">
+
+        <source src="/Snake/Game/music/you_died.mp3" type="audio/mp3">
+
+    </audio>
+
+    <audio id="SUPERSECRET" loop="loop">
+
+        <source src="/Snake/Game/music/LAST.wav" type="audio/wav">
+
+    </audio>
+
+    <audio id="menuSong" loop="loop">
+
+        <source src="/Snake/Game/music/YES2.mp3" type="audio/mp3">
+
+    </audio>
+
+    <div class="StoreLink">
+
+        <a href="/Snake/Game/index html/Store_Page.html">Go to Store</a>
+
+    </div>
+
+</body>  
+
+</html>

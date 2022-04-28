@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'Letra-Nice';
+    src: url('/memory/fonts/Westington.ttf');
+}
+
+.grid{
+
+    display: flex;
+    flex-flow: wrap;
+    width: 620px;
+    height: 210px;
+    gap: 4px;
+    margin-left: 66.5vh;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 25px rgb(255, 255, 255);
+    background: radial-gradient(circle, rgb(49, 181, 199), rgb(10, 1, 31));
+
+}
+body{
+
+    background-image: linear-gradient(-45deg, rgb(21, 56, 26), rgb(62, 19, 82) , rgb(82, 4, 21));
+    background-repeat: no-repeat;
+    background-size: 500%, 500%;
+    animation: FondoMovil 20s ease infinite;
+    transition: 25s;
+    height: 923.1px;
+    
+
+}
+
+h3{
+
+    font-family: monospace;
+    font-size: 25px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.863);
+    text-shadow: 0px 0px 4px white;
+    position: relative;
+    
+}
+
+header{
+
+    font-family: 'Letra-Nice';
+    font-size: 100px;
+    text-align: center;
+    text-decoration:  underline rgb(255, 255, 255);
+    text-decoration-thickness: 5px;
+    text-shadow: 0px 0px 10px rgb(241, 35, 97);
+    color: whitesmoke;
+
+}
+
+@keyframes FondoMovil{
+
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+
+}
+
+#Wol{
+
+    font-family: bold, monospace;
+    font-size: 25px;
+    text-shadow: 0px 0px 4px rgb(255, 255, 255);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.863);
+    
+
+}
+
+#retButt{
+
+    margin-left: 94vh;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    font-family: fantasy;
+    font-size: 2.5vh;
+    color: aliceblue;
+    background-color: rgb(18, 20, 49);
+    border-radius: 10px;
+    border: 1px solid rgb(18, 20, 49);
+    box-shadow: 0px 0px 15px rgb(250, 168, 179);
+
+}
+
+#retButt:hover{
+
+    box-shadow: 0px 0px 10px rgb(255, 234, 237);
+    border: 1px solid rgb(18, 20, 49);
+
+}
+
+#retButt:active{
+
+    background-color: rgb(5, 5, 14);
+    border: 1px solid rgb(5, 5, 14);
+    color: rgb(192, 198, 204);
+
+}
+
+#giveUp{
+
+    margin-left: 94vh;
+    padding-left: 13px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-right: 13px;
+    font-family: fantasy;
+    font-size: 2.5vh;
+    color: aliceblue;
+    background-color: rgb(49, 18, 18);
+    border-radius: 10px;
+    border: 1px dotted rgb(18, 20, 49);
+    box-shadow: 0px 0px 15px rgb(250, 168, 179);
+
+}
+
+#giveUp:hover{
+
+    box-shadow: 0px 0px 10px rgb(255, 234, 237);
+    border: 1px solid rgb(18, 20, 49);
+
+}
+
+#giveUp:active{
+
+    background-color: rgb(5, 5, 14);
+    border: 1px solid rgb(5, 5, 14);
+    color: rgb(192, 198, 204);
+
+
+}
+
+#kitty{
+
+    position: absolute;
+    bottom: 10vh;
+    margin-left: 88vh;
+
+}
+
